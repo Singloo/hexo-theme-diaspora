@@ -1,8 +1,7 @@
 # 头部菜单，title: link
 menu:
-  Whoami: /whoami
-  Github: https://github.com/Fechin
-  Twitter: https://twitter.com/FechinLi
+  Github: https://github.com/Singloo
+  Twitter: https://twitter.com/Rickyan98932758
 
 # 是否显示目录
 TOC: false
@@ -12,14 +11,14 @@ autoplay: false
 
 # 默认音乐
 mp3: 
-  - http://link.hhtjim.com/163/5146554.mp3
-  - http://link.hhtjim.com/qq/001faIUs4M2zna.mp3
+  - https://timvel-1.oss-cn-hangzhou.aliyuncs.com/musics/organ_variation.mp3
+  - https://timvel-1.oss-cn-hangzhou.aliyuncs.com/musics/space_song.mp3
 
 # 首页封面图, 为空时取文章的cover作为封面
-welcome_cover: # /img/welcome-cover.jpg
+welcome_cover: https://source.unsplash.com/random/800x500
 
 # 默认文章封面图
-cover: /img/cover.jpg
+cover: https://source.unsplash.com/random/800x500
 
 # 是否关闭默认滚动条
 scrollbar: true
@@ -29,28 +28,28 @@ gitalk:
     # 是否自动展开评论框
     autoExpand: false
     # 应用编号
-    clientID: ''
+    clientID: 'cc5fa8eb22be1b9c5beb'
     # 应用秘钥
-    clientSecret: ''
+    clientSecret: 'fc035ca7647676bfeda26468b449d13774ccb376'
     # issue仓库名
-    repo: ''
+    repo: 'blog_gitalk'
     # Github名
-    owner: ''
+    owner: 'Singloo'
     # Github名
-    admin: ['']
+    admin: ['Singloo']
     # Ensure uniqueness and length less than 50
     id: location.pathname
     # Facebook-like distraction free mode
     distractionFreeMode: false
 
 # 网站关键字
-keywords: Fechin
+keywords: Timvel
 
 # 要使用google_analytics进行统计的话，这里需要配置ID
-google_analytics: 
+google_analytics: UA-129908627-2
 
 # 网站ico
-favicon: /img/favicon.png
+favicon: /favicon.png
 
 # rss文件
 rss: atom.xml
